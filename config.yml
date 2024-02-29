@@ -1,0 +1,25 @@
+baseURL: https://www.nh1.rocks/
+languageCode: en-us
+title: My Site
+theme: ["PaperMod"]
+
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: About
+          url: about
+          weight: 5
+        - name: Search
+          url: search/
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 10
